@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h3>1. write a program to calculate the basic pay person given his basic pay to be entered by user<br> HRA=10% of basic pay, TA =5 % of basic pay define HRA nd TA as constant.<br>
+     use them to calculate the salary of a employe</h3>
+     <script>
+      const ctc =50000;
+//  here we are calculating the salary of a employee
+const HRA= 10 * (50000 / 100);
+console.log(HRA);
+const TA= 5 * (50000 / 100);
+console.log(TA);
+const salary= 85 * (50000 / 100);
+console.log(salary);
+// output=
+// hra=5000,
+// ta=2500
+// salary=42500
+</script>
+==================================================================
+<h3>2 .write a program that calculate number of seconds in a day</h3>
+<script>
+var hours =24;
+var min=60;
+var sec=60;
+var day=hours*min*sec   
+console.log(day)
+
+//  output=
+//  no. of seconds in a day=86400
+</script>
+===================================================================
+<h3>3. write a program that calculate x power of y </h3>
+<script>
+  var a=5;
+var b=4;
+var c= 5**4
+console.log(c)
+</script>
+<!-- //  output= 625-->
+===================================================================
+<h3>4. write a program to calculate the simple interest and compound interest</h3>
+<script>
+  // i am taking here 5 power four
+var p=3000;
+var t=3*12;
+var r= 3;
+var si= p*t*r / 100;
+console.log(si)
+
+var p1=4000;
+var n=2*12;
+var r1=3;
+var ci=(p*(1+r/100))**n
+console.log(ci)
+</script>
+<!-- output for si=3240 -->
+<!-- output for ci=5.741210972489201e+83
+ -->
+ ==================================================
+ <h3>5.write a program to calculate the area of an right angle triangle</h3>
+ <script>
+ var base=50;
+var height=100;
+var area=0.5*50*100
+console.log(area)
+</script>
+<!-- output for area=2500 -->
+=======================================================
+
+<h3>6.write a program to calculate the distance between the two points</h3>
+
+<script>
+  var x1=10;
+x2=20;
+y1=30;
+y2=40;
+d=Math.sqrt(Math.pow(x2-x1,2)+Math.pow(y2-y1,2))
+console.log(d)
+</script>
+<!-- output =14.142135623730951 -->
+============================================================================
+<h3>7.write a program to extract the last digit of number</h3>
+<script>
+   var a=4509;
+ var b=a%10
+ console.log(b)
+</script>
+<!-- output= 9 -->
+======================================================================
+<h3>8.write a program to calculate how much coins you have</h3>
+<script>
+   var a=5;
+ var b=6;
+ var c=7;
+ var d=8;
+ 
+ var w=20;
+ var x=19;
+ var y=18;
+ var z=17
+ var amount=(a*w)+(b*x)+(c*y)+(d*z)
+ console.log(amount)
+</script>
+<!-- output =476 -->
+======================================================================
+
+</body>
+</html>
